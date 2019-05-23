@@ -1,0 +1,1943 @@
+/*NAZ.RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*THIS IS MAIN RESPONSIVE CSS FILE THAT CONTAINS CUSTOM STYLE RULES USED IN THIS TEMPLATE*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 	THEME NAME 		: NAZ-RESPONSIVE SIMPLE ONE PAGE
+* 	THEME URL		: http://www.naz1.naztemplate.com/
+* 	AUTHOR			: NAZ
+* 	AUTHOR URL		: http://www.naztemplate.com/
+* 	VERSION			: 1.0
+* 	COPYRIGHT		: (C) 2014
+*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+/*LARGE WIDESCREEN MONITORS*/
+@media (min-width: 1681px) and (max-width: 3000px) {
+
+.container {
+    width: 990px !important;
+}
+}
+
+
+@media (min-width: 1441px) and (max-width: 1680px) {
+
+.container {
+    width: 990px !important;
+}
+}
+
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+
+.container {
+    width: 990px !important;
+}
+}
+
+
+@media (min-width: 1281px) and (max-width: 1364px) {
+
+.container {
+    width: 990px !important;
+}
+}
+
+
+@media (min-width: 1215px) and (max-width: 1280px) {
+
+.container {
+    width: 100% !important;
+}
+}
+
+
+
+/*VERY LARGE TABLETS AND MEDIUM LAPTOPS*/
+
+@media (min-width: 1153px) and (max-width: 1214px) {
+
+.container {
+    width: 990px !important;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 70px;
+	line-height: 77px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 80px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 80px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+#article1 p {
+	margin-right: auto;
+}
+}
+
+
+/*NOTEBOOKS AND SMALL LAPTOPS*/
+
+@media (min-width: 1025px) and (max-width: 1152px) {
+
+.container {
+    max-width: 990px !important;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 70px;
+	line-height: 77px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 80px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 80px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+#article1 p {
+	margin-right: auto;
+}
+}
+
+
+@media (min-width: 991px) and (max-width: 1024px) {
+
+.container {
+    width: 900px !important;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 60px;
+	line-height: 67px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 70px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 70px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+#article1 p {
+	margin-right: auto;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 26px;
+	line-height: 33px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 20px;
+}
+}
+
+
+/*IPAD LANDSCAPE MODE AND LARGE TABLETS*/
+
+@media (min-width: 961px) and (max-width: 990px) {
+
+.container {
+    width: 900px !important;
+}
+
+/*ABOUT*/
+.text-left {
+text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+padding-left: 130px;
+}
+
+#article1 p {
+	margin-right: auto;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 60px;
+	line-height: 67px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 70px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 70px;
+	margin:0;
+	padding: 4px;
+}
+
+/*PORTFOLIO*/
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 26px;
+	line-height: 33px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 20px;
+}
+
+/*CONTACT*/
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+}
+
+
+/*SMALL DESKTOP AND VERY SMALL NOTEBOOK*/
+
+@media (min-width: 801px) and (max-width: 960px) {
+.container {
+    max-width: 760px !important;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 60px;
+	line-height: 67px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 70px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 70px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+padding-left: 70px;
+}
+
+#article1 p {
+	margin-right: auto;
+}
+
+/*PORTFOLIO*/
+.works-gallery #Grid .mix {
+	width: 29.5%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 18px;
+	line-height: 25px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 34px;
+	line-height: 41px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 20px;
+}
+
+/*CONTACT*/
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+}
+
+
+/*WINDOWS MACHINE 782PX*/
+@media (min-width: 768px) and (max-width: 800px) { 
+
+.container {
+    max-width: 720px !important;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 50px;
+	line-height: 57px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 70px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 70px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+padding-left: 45px;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+/*PORTFOLIO*/
+.works-gallery #Grid .mix {
+	width: 29.5%;
+}
+
+#control_buttons a {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CONTACT*/
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+}
+
+
+/*IPAD PORTRAIT MODE, IPAD MINI AND SMALL TABLETS*/
+
+@media (min-width: 641px) and (max-width: 767px) {
+
+.container {
+    max-width: 600px !important;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 46px;
+	line-height: 53px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 60px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 60px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 20px;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+/*PORTFOLIO*/
+.works-gallery #Grid .mix {
+	width: 45%;
+}
+
+#control_buttons a {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CONTACT*/
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+
+.col {
+	float: center;
+	min-height: 1px;
+	padding: 0;
+	position: relative;
+}
+}
+
+
+/*MEDIUM SMART PHONES V2*/
+
+@media (min-width: 601px) and (max-width: 640px) {
+
+.container {
+    max-width: 560px !important;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 60px;
+	margin:0;
+	padding: 12px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 60px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+/*PORTFOLIO*/
+.works-gallery #Grid .mix {
+	width: 45%;
+}
+
+#control_buttons a {
+	font-size: 26px;
+	line-height: 33px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 14px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 22px;
+	line-height: 29px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 28px;
+	line-height: 35px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CONTACT*/
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+
+/*GOOGLE NEXUS AND OTHER LARGE SMART PHONES V1*/
+
+@media (min-width: 481px) and (max-width: 600px) {
+
+.container {
+    max-width: 440px !important;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 50px;
+	margin:0;
+	padding: 4px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 50px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+
+/*ARTICLE1*/
+
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+.article1-button-margin {
+	margin-right: 40px;
+}
+
+/*ARTICLE2*/
+#article2 h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.margint60 {
+margin-top: 35px !important;
+}
+
+/*PORTFOLIO*/
+.works-gallery .category div.filter {
+	margin-right: 5px;
+	padding: 2px;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.works-gallery #Grid .mix {
+	width: 45%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 11px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CONTACT*/
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+
+/*IPHONE LANDSCAPE MODE AND MEDIUM SMART PHONES*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+
+.container {
+    width: 320px !important;
+	text-align: center;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+.section-heading h2 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.section-heading h3 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 22px;
+	line-height: 29px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.home-owl-content .motto span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 50px;
+	margin:0;
+	padding: 4px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 50px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+
+/*ARTICLE1*/
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;	
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+.article1-button-margin {
+	margin-right: 40px;
+}
+
+/*ARTICLE2*/
+#article2 h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.margint60 {
+margin-top: 20px !important;
+}
+
+/*PORTFOLIO*/
+.works-gallery .category div.filter {
+	margin-right: 5px;
+	padding: 2px;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.works-gallery #Grid .mix {
+	width: 80%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	top: 11px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CLIENTS*/
+.clients-header h2 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.clients-wrapper h3 {
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.clients-wrapper p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.clients-logo-owl .logo img {
+	margin: 0 auto;
+}
+
+/*CONTACT*/
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+}
+
+.contact-form div {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+
+/*OTHER MAJOR SMALL SMART PHONES*/
+
+@media (min-width: 321px) and (max-width: 360px) {
+
+.container {
+    max-width: 300px !important;
+    text-align: center;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 50px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+.section-heading h2 {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.section-heading h3 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 22px;
+	line-height: 29px;
+}
+ 
+.home-owl-content .motto span {
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+
+/*ARTICLE1*/
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.article1-button-margin {
+	margin-right: 60px;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+/*ARTICLE2*/
+#article2 h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.margint60 {
+margin-top: 20px !important;
+}
+
+/*PORTFOLIO*/
+.works-gallery .category div.filter {
+	margin-right: 5px;
+	padding: 2px;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.works-gallery #Grid .mix {
+	width: 80%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	display: none;
+}
+
+.intermediate-container .subheading {
+	position: static;
+	text-align: center;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 0;
+	position: static;
+	display: inline;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*CLIENTS*/
+.clients-header h2 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.clients-wrapper h3 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.clients-wrapper p {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.clients-logo-owl .logo img {
+	margin: 0 auto;
+}
+
+/*CONTACT*/
+.offset1-form {
+	margin-left: 0;
+}
+
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+
+/*IPHONE PORTRAIT MODE AND VERY SMALL MOBILE PHONES*/
+
+@media (min-width: 261px) and (max-width: 360px) {
+.container {
+    width: 100% !important;
+    text-align: center;
+}
+
+.padt60{
+	padding-top: 50px;
+}
+.padb60{
+	padding-bottom: 10px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+.section-heading h2 {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.section-heading h3 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 22px;
+	line-height: 29px;
+}
+ 
+.home-owl-content .motto span {
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+/*SERVICES*/
+.services-box-small h4 {
+	text-align: center;
+}
+
+.text-content-services p {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*ARTICLE1*/
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.article1-button-margin {
+	margin-left: -50px;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+/*ARTICLE2*/
+#article2 {
+	padding-top: 70px;
+}
+
+#article2 h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.margint60 {
+margin-top: 0 !important;
+}
+
+/*PORTFOLIO*/
+.works-gallery .category div.filter {
+	margin-right: 5px;
+	padding: 2px;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.works-gallery #Grid .mix {
+	width: 80%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	display: none;
+}
+
+.intermediate-container .subheading {
+	position: static;
+	text-align: center;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0;
+	position: static;
+	display: inline;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*PRICING SECTION*/
+.pricing-container .pricing-header h2 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.pricing-container .pricing-header .pricing p {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.pricing-container .pricing-header .pricing p span {
+	font-size: 18px;
+	line-height: 25px;
+	margin-right: 5px;
+}
+
+/*CLIENTS*/
+.clients-header h2 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.clients-wrapper h3 {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.clients-wrapper p {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.clients-logo-owl .logo img {
+	margin: 0 auto;
+}
+
+/*CONTACT*/
+
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 260px) {
+.container {
+    width: 100% !important;
+    text-align: center;
+}
+
+.padt60{
+	padding-top: 10px;
+}
+.padb60{
+	padding-bottom: 10px;
+}
+
+.padt30 {
+	padding-top: 25px;
+}
+
+.btn-get-btn1 {
+	padding: 15px 35px;
+	font-size: 13px;
+}	
+
+.btn-get-btn2 {
+	padding: 15px 35px;
+	font-size: 13px;
+}	
+
+.btn-get-btn3 {
+	padding: 15px 35px;
+	font-size: 13px;
+}
+
+.btn-get-btn4 {
+	width: 100%;
+	padding: 15px 35px;
+	font-size: 13px;
+	text-align: center;
+}		
+
+.section-heading h2 {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.section-heading h3 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*MAIN NAVIGATION*/
+.navigation-section {
+	display: none;
+}
+
+#sm.menu {
+	display: block;
+}
+
+/*HOME*/
+.home-owl-content .sub-heading span {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 22px;
+	line-height: 29px;
+}
+ 
+.home-owl-content .motto span {
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	font-size: 40px;
+	margin:0;
+	padding: 4px;
+}
+
+/*ABOUT*/
+.text-left {
+	text-align: left;
+}
+
+.bx-wrapper .bx-viewport {
+	padding-left: 0;
+}
+/*SERVICES*/
+.services-box-small h4 {
+	text-align: center;
+}
+
+.text-content-services p {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*ARTICLE1*/
+#article1 p {
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.article1-button-margin {
+	margin-left: -50px;
+}
+
+#article1 h3 {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+/*ARTICLE2*/
+#article2 {
+	padding-top: 40px;
+}
+
+#article2 h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.margint60 {
+margin-top: 0 !important;
+}
+
+/*PORTFOLIO*/
+.works-gallery .category div.filter {
+	margin-right: 5px;
+	padding: 2px;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.works-gallery #Grid .mix {
+	width: 80%;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h1 {
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content h2 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.works-gallery .works-item a.more_info .hover-hidden-content p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*ARTICLE3*/
+.intermediate-container .subheading .divider {
+	display: none;
+}
+
+.intermediate-container .subheading {
+	position: static;
+	text-align: center;
+}
+
+.intermediate-container .subheading h4 {
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0;
+	position: static;
+	display: inline;
+}
+
+.intermediate-container .heading h2 {
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.intermediate-container .intermediate-button-margin {
+	margin-top: 15px;
+}
+
+/*PRICING SECTION*/
+.pricing-container .pricing-header h2 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.pricing-container .pricing-header .pricing p {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.pricing-container .pricing-header .pricing p span {
+	font-size: 18px;
+	line-height: 25px;
+	margin-right: 5px;
+}
+
+.pricing-container .pricing-features .custom-pricing-btn-style {
+padding: 12px 20px !important;
+font-size: 12px !important;
+}
+
+/*CLIENTS*/
+.clients-header h2 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.clients-wrapper h3 {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.clients-wrapper p {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.clients-logo-owl .logo img {
+	margin: 0 auto;
+}
+
+/*CONTACT*/
+
+.contact-form-social {
+	text-align: left;
+	width: 100%;
+}
+
+.contact-form-address {
+	text-align: left;
+	padding-left: 0;
+}
+.contact-form div {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+	line-height: 13px;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 15px;
+}
+}
+
+
+
+

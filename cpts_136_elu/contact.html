@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Portfolio  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+</script>
+<!----webfonts--->
+<link href='http://ajax.useso.com/css?family=Raleway:200,400,300,600,500,900,700,100,800' rel='stylesheet' type='text/css'>
+<link href='http://ajax.useso.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<!---//webfonts--->
+</head>
+<body>	
+	<!-- container -->
+		<!-- header -->
+		<div id="home" class="single_header">
+			<div class="container">
+				<!-- -->
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a href="index.html">home</a></li>
+										<li><a class="scroll" href="#about">About</a></li>
+										<li><a class="scroll" href="#services">Services</a></li>
+										<li><a class="scroll" href="#port">portfolio</a></li>
+										<li><a class="scroll" href="#blog">Blog</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>    
+				<!-- script-for-box -->
+				 <script type="text/javascript">
+					var $ = jQuery.noConflict();
+						$(function() {
+							$('#activator').click(function(){
+								$('#box').animate({'top':'0px'},500);
+							});
+							$('#boxclose').click(function(){
+							$('#box').animate({'top':'-700px'},500);
+							});
+						});
+						$(document).ready(function(){
+						//Hide (Collapse) the toggle containers on load
+						$(".toggle_container").hide(); 
+						//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+						$(".trigger").click(function(){
+							$(this).toggleClass("active").next().slideToggle("slow");
+								return false; //Prevent the browser jump to the link anchor
+						});
+											
+					});
+				</script>
+				<!-- script-for-box -->
+				<!----->
+				
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="single">
+		   <div class="container">
+              <div class="singel_right">
+			     <div class="col-md-8">
+				      <div class="contact-form">
+				  	        <form method="post" action="contact-post.html">
+					    	    <p class="comment-form-author"><label for="author">Your Name:</label>
+					    	    	<input type="text" class="textbox" value="Enter your name here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name here...';}">
+						    	</p>
+						        <p class="comment-form-author"><label for="author">Email:</label>
+						     	   <input type="text" class="textbox" value="Enter your email here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						        </p>
+						        <p class="comment-form-author"><label for="author">Message:</label>
+						    	  <textarea value="Enter your message here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message here...</textarea>
+						        </p>
+						        <input name="submit" type="submit" id="submit" value="Submit">
+					        </form>
+				       </div>
+			     </div>
+			     <div class="col-md-4 contact_right">
+					<h3>Address</h3>
+				    <div class="address">
+						<i class="pin_icon"></i>
+					    <div class="contact_address">
+						  Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non
+					    </div>
+					    <div class="clearfix"></div>
+					</div>
+					<div class="address">
+						<i class="phone"></i>
+					    <div class="contact_address">
+						   1-25-2568-897
+					    </div>
+					    <div class="clearfix"></div>
+					</div>
+					<div class="address">
+						<i class="mail"></i>
+					    <div class="contact_email">
+						  <a href="malito:mai(at)demolink.org">mail@portfolio.com</a>
+					    </div>
+					    <div class="clearfix"></div>
+					</div>
+		        </div>
+		        <div class="clearfix"></div>
+		</div>
+		<div class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3150859.767904157!2d-96.62081048651531!3d39.536794757966845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1408111832978"> </iframe>
+        </div>
+     </div>
+		  </div>
+		<!-- footer -->
+		<div class="container">
+		<div class="footer">
+				<div class="footer-left">
+					<p>Copyright &copy; 2015.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				</div>
+				<div class="footer-right">
+					<ul>
+						<li><a href="#"><span class="face"> </span></a></li>
+						<li><a href="#"><span class="twit"> </span></a></li>
+						<li><a href="#"><span class="dri"> </span></a></li>
+						<li><a href="#"><span class="tech"> </span></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!-- /footer -->
+	<!-- /container -->
+</body>
+</html>
+

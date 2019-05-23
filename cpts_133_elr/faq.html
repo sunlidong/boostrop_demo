@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Dotpixsel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.useso.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<div class="header head-top">
+		<div class="container">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+			</div>
+		</div>
+  <div class="contant">
+		  	<div class="pagenot-found">
+		  		<img src="images/404.png" alt=""  />
+        		<p><a href="index.html"> go back to home</a></p>
+		  		</div>
+		  	</div>
+		<div class="footer-section">
+			<div class="container">	
+			<div class="footer-top">
+				<div class="copy-rights">
+					<p>Copyright &copy; 2015.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+					</div>
+					<div class="top-menu">
+						<ul>
+							<li><a href="contact.html">contact</a></li>
+								<li><a href="faq.html">faq</a></li>
+									<li><a href="blog.html">blog</a></li>
+						</ul>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-button">
+						<a href="#">
+						<div class="apple">
+						<img src="images/apple.png">
+							</div>
+							<div class="appstore">
+								<p>Download On the</p>
+								<h4>app store</h4>
+							</div></a>
+								<div class="clearfix"></div>
+								</div>
+								<div class="coming-soon">
+									<a href="#">coming soon</a>
+									</div>
+									<div class="clearfix"></div>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+
+				</div>
+			</div>				
+		
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*HOME SLIDER*/
+
+.home-owl .item .bg1 {
+	background-image: url(../img/homeslide/homeslide1.jpg);
+	background-size: cover;
+	background-color: #f60861;
+} 
+
+.home-owl .item .bg2 {
+	background-image: url(../img/homeslide/homeslide2.jpg);
+	background-size: cover;
+	background-color: #FFF;
+} 
+
+.home-owl .item .bg3 {
+	background-image: url(../img/homeslide/homeslide3.jpg);
+	background-size: cover;
+	background-color: #222;
+} 
+
+
+.home-section .inner-section {
+	position: relative;
+}
+
+.home-section .inner-section:hover .mouse-icon .scroll-down:before {
+	opacity: 0.9;
+	-webkit-transition-duration: 1.2s;
+	  -moz-transition-duration: 1.2s;
+	    -ms-transition-duration: 1.2s;
+		  -o-transition-duration: 1.2s;
+		    transition-duration: 1.2s;
+}
+
+.home-owl .item .shadow {
+	
+	width: 100%;
+	height: 100%;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 80px;
+	color: #FFF;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.motto {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 300;
+	color: #FFF;
+	max-width: 450px;
+	margin: 0 auto;
+}
+.mouse-icon {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 44px;
+	bottom: 10%;
+	left: 50%;
+	cursor: pointer;
+}
+
+.mouse-icon .scroll-down:before {
+	content: "\f078";
+	font-family: FontAwesome;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0;
+}
+
+
+
+
+
+
+	/* CHROME, SAFARI, OPERA */
+	@-webkit-keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}
+
+	/* STANDARD SYNTAX */
+	@keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}

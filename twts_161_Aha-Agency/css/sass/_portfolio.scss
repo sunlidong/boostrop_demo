@@ -1,0 +1,507 @@
+/*-------------------------------------------------------*/
+/* Portfolio
+/*-------------------------------------------------------*/
+
+.works-grid.grid-5-col .work-item { width: 20%; }
+.works-grid.grid-4-col .work-item { width: 25%; }
+.works-grid.grid-3-col .work-item { width: 33.333%; }
+.works-grid.grid-2-col .work-item { width: 50%; }
+.works-grid.small-gutter { margin-left: 10px; margin-right: 10px; }
+.works-grid.small-gutter .work-item { padding: 0 3px; }
+.works-grid.small-gutter .work-container { margin-bottom: 6px; }
+.works-grid.gutter .work-item { padding: 0 15px; }
+.works-grid.no-gutter .work-item { padding: 0; }
+.works-grid.no-gutter .work-img { @include border-radius(0); }
+
+.works-grid.no-gutter .work-container,
+.related-products .work-container,
+#owl-featured-works .work-container,
+#offset-slider .work-container,
+#flickity-single .work-container,
+.owl-carousel .work-container {
+  margin: 0;
+}
+
+#flickity-single .gallery-cell.work-item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.works-grid.with-title .work-description {
+  position: relative;
+  bottom: auto;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.works-grid.with-title .work-item:hover .work-img img {
+  @include transform (none);
+}
+
+.works-grid.with-title .work-item:hover .project-icons {
+  top: 50%;
+  @include transform (translateY(-50%));
+  margin-top: 0;
+}
+
+.portfolio-filter {
+  list-style: none;
+  margin-bottom: 50px;
+  cursor: default;
+  font-size: 14px;
+
+  & a {
+    display: inline-block;
+    margin: 0 15px;
+    color: $text-color;
+    text-decoration: none;
+
+    &.active,
+    &:hover {
+      color: $main-color;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  
+}
+
+.work-container {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.work-item {
+  position: relative;
+
+  .work-img {
+    position: relative;
+    overflow: hidden;  
+    z-index: 1;
+
+    &.rounded {
+      @include border-radius (4px);
+    }
+
+    & > a {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  & img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    @include transition (0.60s cubic-bezier(0.86, 0, 0.07, 1));
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  &:hover {
+
+    .work-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .lightbox-icon:before,
+    .lightbox-icon:after {
+      @include transform (scale(1,1));
+    }
+  }
+
+
+  &.hover-2 {
+
+    .work-description {
+      top: 50%;
+      bottom: auto;
+      padding: 0 15px;
+      color: #fff;
+      background-color: transparent;
+      @include transform(translateY(-50%));
+
+      & h3 {
+        position: relative;
+        bottom: -100px;
+        color: #fff;
+        font-size: 18px;
+        @include transition(bottom .3s ease-in-out .1s);
+      }
+
+      & span {
+        position: relative;
+        color: #fff;
+        bottom: -100px;
+        @include transition(bottom .3s ease-in-out);
+      }
+    }
+
+    .work-overlay {
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    .work-overlay:before {
+      display: block;
+      content: '';
+      height: 1px;
+      left: 51%;
+      right: 51%;
+      margin: auto;
+      background-color: rgba(255,255,255,.3);
+      position: absolute;
+      top: 50%;
+      @include transition (left .2s ease-in-out, right .2s ease-in-out);
+    }
+
+    &:hover .work-overlay:before {
+      left: 30%;
+      right: 30%;
+      @include transition (left .3s ease-in-out .3s, right .3s ease-in-out .3s);
+    }
+
+    &:hover .work-description h3 {
+      bottom: 12px;
+      @include transition(bottom .3s ease-in-out .1s);
+    }
+
+    &:hover .work-description span {
+      bottom: -12px;
+      @include transition(bottom .3s ease-in-out .2s);
+    }
+  }
+
+
+  &.hover-2:hover .work-img img,
+  &.hover-3:hover .work-img img {
+    @include transform(none);
+  }
+
+  &.hover-3 {
+
+    .work-description {
+    	top: 0;
+      left: -100%;
+    	background-color: transparent;
+      margin: 0;
+    	padding: 30px;
+      text-align: left;
+      position: absolute;
+      @include transition (.3s ease-in-out);
+    }
+
+  	& h3 {
+  		color: #fff;
+      font-size: 18px;
+  		line-height: 1;
+  		margin-bottom: 3px;
+  	}
+
+  	& span {
+  		color: #fff;
+  		font-size: 13px;
+  		font-style: italic;
+  	}
+
+    &:hover .work-description {
+      left: 0;
+    }
+  }
+
+}
+
+.work-description {
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: auto;
+  bottom: -65px;
+  z-index: 3;
+  @include transition (0.60s cubic-bezier(0.86, 0, 0.07, 1));
+
+  h3 {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+
+    & a:hover {
+      color: $main-color;
+    }
+  }
+
+  & > span > a {
+    color: $text-color;
+    font-size: 12px;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  i {
+    font-size: 40px;
+  }
+
+  span {
+    color: $text-color;
+    font-size: 15px;
+  }
+}
+
+.work-overlay {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  @include transform (translate3d(0,0,0));
+  background-color: rgba(0,0,0,0.3);
+  @include transition ($all);
+}
+
+.lightbox-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  @include transform (translate(-50%, -50%));
+
+  &:before {
+    content: "";
+    height: 1px;
+    display: block;
+    width: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    @include transform (scale(0,0));
+    @include transition (0.60s cubic-bezier(0.86, 0, 0.07, 1));
+  }
+
+  &:after {
+    content: "";
+    width: 1px;
+    display: inline-block;
+    height: 30px;
+    background-color: #fff;
+    @include transform (scale(0,0));
+    @include transition (0.60s cubic-bezier(0.86, 0, 0.07, 1));
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* With Description
+/*-------------------------------------------------------*/
+
+.grid-1-col {
+  .work-item {
+    width: 100%;
+    padding: 0 15px;
+
+    &:hover .work-container {
+      @include box-shadow (0px 6px 18px 0px rgba(18, 20, 23, 0.05));
+    } 
+  }
+
+  .work-container {
+    @include box-shadow (0px 0px 0px 0px rgba(18, 20, 23, 0.05));
+    @include transition (.2s ease-in-out);
+    margin-bottom: 30px;
+  }
+
+  .work-description {
+    width: 35%;
+    bottom: auto;
+    position: relative;
+    float: right;
+    background-color: #fff;
+    padding: 60px 50px 280px 50px;
+
+    h3 {
+      font-size: 24px;
+    }
+  }
+}
+
+.bg-img-holder {
+  position: absolute;
+  overflow: hidden;
+  width: 65%;
+  height: 100%;
+  float: left;
+
+  .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-size: cover !important;
+    background-position: 50% !important;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Masonry
+/*-------------------------------------------------------*/
+
+#masonry-grid {
+  width: 100%;
+
+  & .work-item {
+    width: 50%;
+    float: left;
+  }
+
+  & .work-item.quarter {
+    width: 25%;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Single Project
+/*-------------------------------------------------------*/
+
+.project-description {
+  padding-left: 5%;
+}
+
+.product_meta {
+
+  .detail-wrap {
+    display: table;
+    table-layout: fixed;
+  }
+
+  .detail-label,
+  .detail-value {
+    display: table-cell;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: $heading-font;
+  }
+
+  .detail-label {
+    min-width: 110px;
+    color: $heading-color;
+  }
+}
+
+.socials-share > span {
+  font-family: $heading-font;
+  color: $heading-color;
+  display: inline-block;
+  margin-right: 15px; 
+}
+
+.socials-share .social-icons {
+  display: inline-block;
+}
+
+/*-------------------------------------------------------*/
+/* Style-2
+/*-------------------------------------------------------*/
+
+.portfolio-single.style-2 .project-description {
+  padding: 0 15px;
+  margin-top: 0;
+}
+
+
+/*-------------------------------------------------------*/
+/* Project Nav
+/*-------------------------------------------------------*/
+
+.project-nav {
+  background-color: $bg-light;
+  padding: 30px 0;
+
+  li {
+    position: relative;
+    height: 22px;
+  }
+
+  li a {
+    font-family: $heading-font;
+    color: $heading-color;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  .page-prev a,
+  .page-next a {
+    position: relative;
+    @include transition ($all);
+  }
+
+  .page-prev i,
+  .page-next i {
+    font-size: 28px;
+    position: absolute;
+    line-height: 22px;
+  }
+
+  .page-prev {
+    & i {
+      left: 0;
+    }
+
+    & a {
+      padding-left: 26px;
+    }
+
+    & a:hover {
+      padding-left: 20px;
+    }
+  }
+
+  .page-next {
+    text-align: right;
+    & i {
+      right: 0;
+    }
+
+    & a {
+      padding-right: 26px;
+    }
+
+    & a:hover {
+      padding-right: 20px;
+    }
+  }
+  
+  .back-to-projects {
+    text-align: center;
+
+    i {
+      font-size: 22px;
+    }
+  }
+}

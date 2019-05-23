@@ -1,0 +1,113 @@
+.dropdown-menu > li:hover > a, .dropdown-menu > li > a:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #47c3ca !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+color: #47c3ca;
+border-color: #47c3ca;
+background-color: #47c3ca;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li.active > a:hover {
+color: #47c3ca;
+}
+.navbar-default .navbar-nav > li.active > a:focus {
+color: #47c3ca;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #47c3ca;
+}
+.dropdown-menu > li:hover > a, .dropdown-menu > li > a:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #47c3ca !important;
+}
+.navbar .social-icons i:hover {
+color: #47c3ca;
+}
+.btn-primary,
+a.btn-primary {
+  background-color: #47c3ca;
+}
+a.btn-outline.btn-primary, .btn-outline.btn-primary {
+border-color: #47c3ca;
+color: #47c3ca;
+}
+a.btn-outline.btn-primary:hover, a.btn-outline.btn-primary.active, a.btn-outline.btn-primary:active, a.btn-outline.btn-primary:focus,
+.btn-outline.btn-primary:hover, .btn-outline.btn-primary.active, .btn-outline.btn-primary:active, .btn-outline.btn-primary:focus {
+background-color: #47c3ca;
+}
+a.btn-outline.btn-white:hover, a.btn-outline.btn-white.active, a.btn-outline.btn-white:active, a.btn-outline.btn-white:focus,
+.btn-outline.btn-white:hover, .btn-outline.btn-white.active, .btn-outline.btn-white:active, .btn-outline.btn-white:focus {
+color: #47c3ca;
+}
+a:active, a:hover {
+color: #47c3ca;
+}
+.color-primary {
+color: #47c3ca !important;
+}
+.bg-primary {
+background-color: #47c3ca !important;
+}
+.border-primary {
+border-color: #47c3ca !important;
+}
+.blog-img-hover .hover-full i {
+	color: #47c3ca;
+}
+.blog-img-hover .hover-full i:hover {
+background-color: #47c3ca;
+}
+.blog-img-hover .hover-left i {
+	color: #47c3ca;
+}
+.blog-img-hover .hover-right i {
+	color: #47c3ca;
+}
+.blog-img-hover .hover-left i:hover, .blog-img-hover .hover-right i:hover {
+background-color: #47c3ca;
+}
+#blog-fullwidth .expand-img i {
+color: #47c3ca;
+}
+#blog-fullwidth .expand-img:hover i {
+background-color: #47c3ca;
+}
+#sidebar .widget_calendar #wp-calendar #prev a:hover, #sidebar .widget_calendar #wp-calendar #next a:hover {
+color: #47c3ca;
+}
+.scrollup i:hover {
+background-color: #47c3ca;
+}
+.social-icons i:hover {
+color: #47c3ca;
+}
+#accordion .panel a.selected .panel-heading {
+background-color:#47c3ca;
+border-radius:0;
+}
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus {
+color:#47c3ca;
+}
+.nav-tabs > li.active > a {
+border-bottom:3px solid #47c3ca;
+}
+.nav-tabs#tabs > li.active > a {
+border-bottom:3px solid #47c3ca;
+}
+.portfolio-hover-buttons a:hover {
+color: #47c3ca;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+color: #47c3ca;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+background-color: #47c3ca;
+border-color: #47c3ca;
+}
+.progress-bar {
+  background-color: #47c3ca;
+}
+.footer .social-icons i:hover {
+background-color: #47c3ca;
+}
+.footer a:active, .footer a:hover {
+color: #47c3ca;
+}

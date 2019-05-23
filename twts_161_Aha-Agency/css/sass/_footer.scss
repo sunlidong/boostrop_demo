@@ -1,0 +1,149 @@
+/*-------------------------------------------------------*/
+/* Footer Type-1
+/*-------------------------------------------------------*/
+
+.footer-widgets {
+  padding: 90px 0;
+
+  & h5 {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+  }
+
+  & a {
+    color: $text-color;
+  }
+}
+
+.container-fluid .footer-widgets .widget {
+  padding: 0 20%;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 220px;
+    width: 1px;
+    background-color: #323740;
+  }
+
+  &.last:before {
+    display: none;
+  }
+}
+
+
+.footer-widgets a:hover,
+.copyright a:hover,
+.footer-entry .entry-meta li a:hover,
+.bottom-footer-links li a:hover,
+.footer .entry-list ul > li a:hover {
+  color: #fff;
+}
+
+.footer-get-in-touch {
+  & p {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+}
+
+.footer-address {
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+
+.footer.bg-dark {
+
+  .entry-list ul > li {
+    border-bottom: 1px solid #40434a;
+
+    & .entry-meta li,
+    & .entry-meta li a {
+      color: #50545b;
+      font-size: 12px;
+    }
+  }
+}
+
+.recent-works {
+  margin-top: 29px;
+
+  & li {
+    position: relative;
+    float: left;
+    margin: 0 10px 10px 0;
+    background-color: $bg-dark;
+    overflow: hidden;
+
+    & img {
+      @include transition ($all);
+      width: 72px;
+      height: 72px;
+    }
+
+    &:hover img {
+      opacity: 0.4;
+    }
+  }
+
+}
+
+
+.bottom-footer {
+  background-color: #1f1f1f;
+  padding: 34px 0;
+
+  & .social-icons a {
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 23px;
+    height: auto;
+    font-size: 18px;
+
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.copyright {
+  & span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 32px;
+  }
+
+  & a {
+    color: $text-color;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Footer Type-2
+/*-------------------------------------------------------*/
+
+.footer-type-2 {
+  padding: 49px 0;
+
+  .footer-widgets {
+    padding: 0;    
+
+    p {
+      margin: 0;
+    }
+
+    & .row > div {
+      margin-bottom: 12px !important;
+    }
+
+    & .row > div:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}

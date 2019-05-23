@@ -1,0 +1,113 @@
+.dropdown-menu > li:hover > a, .dropdown-menu > li > a:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #fa3dad !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+color: #fa3dad;
+border-color: #fa3dad;
+background-color: #fa3dad;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li.active > a:hover {
+color: #fa3dad;
+}
+.navbar-default .navbar-nav > li.active > a:focus {
+color: #fa3dad;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #fa3dad;
+}
+.dropdown-menu > li:hover > a, .dropdown-menu > li > a:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #fa3dad !important;
+}
+.navbar .social-icons i:hover {
+color: #fa3dad;
+}
+.btn-primary,
+a.btn-primary {
+  background-color: #fa3dad;
+}
+a.btn-outline.btn-primary, .btn-outline.btn-primary {
+border-color: #fa3dad;
+color: #fa3dad;
+}
+a.btn-outline.btn-primary:hover, a.btn-outline.btn-primary.active, a.btn-outline.btn-primary:active, a.btn-outline.btn-primary:focus,
+.btn-outline.btn-primary:hover, .btn-outline.btn-primary.active, .btn-outline.btn-primary:active, .btn-outline.btn-primary:focus {
+background-color: #fa3dad;
+}
+a.btn-outline.btn-white:hover, a.btn-outline.btn-white.active, a.btn-outline.btn-white:active, a.btn-outline.btn-white:focus,
+.btn-outline.btn-white:hover, .btn-outline.btn-white.active, .btn-outline.btn-white:active, .btn-outline.btn-white:focus {
+color: #fa3dad;
+}
+a:active, a:hover {
+color: #fa3dad;
+}
+.color-primary {
+color: #fa3dad !important;
+}
+.bg-primary {
+background-color: #fa3dad !important;
+}
+.border-primary {
+border-color: #fa3dad !important;
+}
+.blog-img-hover .hover-full i {
+	color: #fa3dad;
+}
+.blog-img-hover .hover-full i:hover {
+background-color: #fa3dad;
+}
+.blog-img-hover .hover-left i {
+	color: #fa3dad;
+}
+.blog-img-hover .hover-right i {
+	color: #fa3dad;
+}
+.blog-img-hover .hover-left i:hover, .blog-img-hover .hover-right i:hover {
+background-color: #fa3dad;
+}
+#blog-fullwidth .expand-img i {
+color: #fa3dad;
+}
+#blog-fullwidth .expand-img:hover i {
+background-color: #fa3dad;
+}
+#sidebar .widget_calendar #wp-calendar #prev a:hover, #sidebar .widget_calendar #wp-calendar #next a:hover {
+color: #fa3dad;
+}
+.scrollup i:hover {
+background-color: #fa3dad;
+}
+.social-icons i:hover {
+color: #fa3dad;
+}
+#accordion .panel a.selected .panel-heading {
+background-color:#fa3dad;
+border-radius:0;
+}
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus {
+color:#fa3dad;
+}
+.nav-tabs > li.active > a {
+border-bottom:3px solid #fa3dad;
+}
+.nav-tabs#tabs > li.active > a {
+border-bottom:3px solid #fa3dad;
+}
+.portfolio-hover-buttons a:hover {
+color: #fa3dad;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+color: #fa3dad;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+background-color: #fa3dad;
+border-color: #fa3dad;
+}
+.progress-bar {
+  background-color: #fa3dad;
+}
+.footer .social-icons i:hover {
+background-color: #fa3dad;
+}
+.footer a:active, .footer a:hover {
+color: #fa3dad;
+}
